@@ -74,7 +74,11 @@ body {
 }
 .profile-card .profile-info .name {
   margin-right: 10px;
-  color: var(--dark-grayish-blue);
+  color: var(--very-dark-desaturated-blue);
+}
+.profile-card .profile-info .age {
+  margin-right: 10px;
+  color: var(--dark-gray);
 }
 
 .profile-card .profile-info .location {
