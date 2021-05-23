@@ -110,7 +110,7 @@ body {
   font-size: var(--font-large);
   font-weight: var(--font-bold);
   line-height: var(--lh-large);
-  color: var(--dark-gray-blue);
+  color: var(--very-dark-desaturated-blue);
 }
 .stat-block .stat-num {
   font-size: var(--font-small);
