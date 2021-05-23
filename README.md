@@ -22,4 +22,4 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### What I learned
 
 - First time using CSS Variables!
-- Find out background-image attribute allows multiple background images!
+- Find out background-image property can set multiple background images!
