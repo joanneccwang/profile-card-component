@@ -5,42 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
   
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./style/style.css">
 
   <title>Frontend Mentor | Profile card component</title>
 </head>
-<body>
-  <div class="profile-card">
-    <div class="profile-bg">
-      <div class="profile-img"></div>
+<body class="h-full m-0 flex items-center justify-center">
+  <div class="profile-card m-auto h-auto w-80 rounded-2xl overflow-hidden shadow-2xl">
+    <div class="profile-bg h-36 w-full">
+      <div class="profile-img relative h-24 w-24 top-full left-1/2 rounded-full border-2 border-solid transform -translate-x-2/4 -translate-y-2/4"></div>
     </div>
-    <div class="profile-info">
-      <div>
-        <div class="name">Victor Crest</div>
-        <div class="age">26</div>
+    <div class="profile-info py-4 mt-12 flex flex-col items-center">
+      <div class="flex flex-row text-lg font-bold leading-6 ">
+        <div class="name mr-4">Victor Crest</div>
+        <div class="age mr-2">26</div>
       </div>
-      <div class="location">London</div>
+      <div class="location text-sm leading-6 mt-1">London</div>
     </div>
-    <div class="divider"></div>
-    <div class="statistics">
-      <div class="stat-block">
-        <div class="stat-title">80K</div>
-        <div class="stat-num">Followers</div>
+    <div class="divider h-px"></div>
+    <div class="statistics m-6 flex flex-1 flex-row jusitfy-between">
+      <div class="stat-block flex flex-1 flex-col items-center justify-center">
+        <div class="stat-title text-lg font-bold leading-6">80K</div>
+        <div class="stat-num text-sm leading-6">Followers</div>
       </div>
-      <div class="stat-block">
-        <div class="stat-title">803K</div>
-        <div class="stat-num">Likes</div>
+      <div class="stat-block flex flex-1 flex-col items-center">
+        <div class="stat-title text-lg font-bold leading-6">803K</div>
+        <div class="stat-num text-sm leading-6">Likes</div>
       </div>
-      <div class="stat-block">
-        <div class="stat-title">1.4K</div>
-        <div class="stat-num">Photos</div>
+      <div class="stat-block flex flex-1 flex-col items-center">
+        <div class="stat-title text-lg font-bold leading-6">1.4K</div>
+        <div class="stat-num text-sm leading-6">Photos</div>
       </div>
     </div>
   </div>
-  <div class="attribution">
+  <div class="attribution absolute block right-10 bottom-4 text-xs m-auto">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.frontendmentor.io/profile/joanneccwang" target="_blank">Joanne Wang</a>.
   </div>
